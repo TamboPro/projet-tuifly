@@ -2,6 +2,85 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* GOOGLE FONTS */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body{ background: #fff;  border:0; font: 14px 'Raleway', Arial, Helvetica, sans-serif; color: #959595; line-height:1.42857143; min-width:320px;}
+
+.email1{float: left; padding-left: 25px; background: url(../public/assets/images/email1.png) left center no-repeat;border-right: 1px solid #ebebeb; }
+.email1 a{display: block; font-size: 13px; color: #acacac; text-decoration: none; line-height: 20px;}
+
+.phone1{float: left; padding-left: 25px; background: url(../public/assets/images/phone1.png) left center no-repeat;}
+
+.fly_tabs{
+  background-color: #ffffff; position: relative; margin-top: -119px;
+}
+.fly_tabs_header{
+   position: relative; margin-top: -175px;
+}
+.select1_inner {
+  background: #fff;
+  border: 1px solid #ebebeb;
+  height: 42px;
+  
+}
+
+
+
+.select2-hidden-accessible {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+  font-family: Verdana,Arial,sans-serif;
+  font-size: 1em;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.comment-block{margin-bottom: 30px;}
+.comment-block.left1{margin-left: 100px;}
+.comment-block figure{float: left; margin-right: 30px;}
+.comment-block figure img{}
+.comment-block .caption{overflow: hidden; background: #fff; border: 1px solid #ebebeb; padding: 15px;}
+.comment-block .caption .top{padding-bottom: 15px; color: #c2c2c2; font-size: 12px; font-weight: 500;}
+.comment-block .caption .top span{display: inline-block; margin: 0 25px;}
+.comment-block .caption .top .txt1{display: inline-block;}
+.comment-block .caption .top .txt1 a{color: #1cbbb4; text-decoration: none;}
+.comment-block .caption .top .txt2{display: inline-block;}
+.comment-block .caption .top .txt3{display: inline-block;}
+.comment-block .caption .top .txt3 a{color: #1cbbb4; text-decoration: none;}
+.comment-block .caption .top .txt3 a:after{content: ''; display: inline-block; width: 5px; height: 8px; background: url(../public/assets/images/arr1_hover.png) right center no-repeat; margin-left: 5px;}
+.comment-block .caption .txt{color: #959595;}
+
+
+
+.tabs_tabs .ui-tabs-nav li.flights a{background: url(../public/assets/images/flights.png) 20px center no-repeat #00a99d;}
+.tabs_tabs .ui-tabs-nav li.ui-tabs-active.flights a{background-image: url(../public/assets/images/flights_hover.png);}
+
+.tabs_tabs .ui-tabs-nav li.hotels a{background: url(../public/assets/images/hotels.png) 20px center no-repeat #1cbbb4;}
+.tabs_tabs .ui-tabs-nav li.ui-tabs-active.hotels a{background-image: url(../public/assets/images/hotels_hover.png);}
+
+.tabs_tabs .ui-tabs-nav li.cars a{background: url(../public/assets/images/cars.png) 20px center no-repeat #2bc3bc;}
+.tabs_tabs .ui-tabs-nav li.ui-tabs-active.cars a{background-image: url(../public/assets/images/cars_hover.png);}
+
+.tabs_tabs .ui-tabs-nav li.cruises a{background: url(../public/assets/images/cruises.png) 20px center no-repeat #2dd1c9;}
+.tabs_tabs .ui-tabs-nav li.ui-tabs-active.cruises a{background-image: url(../public/assets/images/cruises_hover.png);}
+
+
+/*
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,3 +104,4 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+*/
